@@ -3,7 +3,7 @@ body{
     color: white;
     background-color: rgb(102, 50, 131);
     margin: 0pt;
-
+    font-family: "Chakra Petch", sans-serif;
 }
 header {
      border-bottom: solid 2px rgb(212, 7, 168)
@@ -38,7 +38,7 @@ section{
 
  }
 
-
+ 
 h1{ 
    font-size: 40px;
 }
@@ -48,9 +48,20 @@ p{
     font-size: 20px;
 
 }
+img{ 
+height: 200px;
 
+}
 
+categoria-videos{ 
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
 
-
+categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 
